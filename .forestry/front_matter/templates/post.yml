@@ -16,7 +16,7 @@ fields:
     schema:
       format: markdown
   label: Auteur
-- name: image
+- name: hero_image
   type: file
   config:
     maxSize: 64
