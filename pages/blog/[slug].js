@@ -30,7 +30,6 @@ export default function BlogTemplate({ frontmatter, markdownBody, siteTitle }) {
         </figure>
         <div className="blog__info">
           <h1>{frontmatter.title}</h1>
-          <h3>{reformatDate(frontmatter.date)}</h3>
         </div>
         <div className="blog__body">
           <ReactMarkdown source={markdownBody} />
